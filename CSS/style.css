@@ -1,0 +1,290 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.header-cta{
+  background-image: url(../images/banner2.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container-h1{
+  font-size: 50px;
+}
+
+.img-div{
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(148deg, rgba(162,19,72,1) 0%, rgba(145,21,142,1) 100%);
+}
+
+.img-div img{
+  margin: 0 auto 0;
+}
+
+.about-container{
+  background: linear-gradient(148deg, rgba(131,22,204,1) 0%, rgba(143,21,136,1) 100%);
+}
+
+.img-about img{
+  border-radius: 45px;
+}
+
+.logo-anchor img{
+  width: 180px;
+}
+
+.ourmics-img{
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(180deg, rgba(176,19,12,1) 50%, rgba(131,22,204,1) 62%);
+}
+
+.ourmics-img img{
+  border-radius: 50%;
+}
+
+.form-feedback-input input, .form-feedback-textarea textarea{
+  background-color: #DBDADA;
+}
+
+.client-feedback{
+  background: linear-gradient(27deg, rgba(154,20,91,1) 28%, rgba(128,21,195,1) 51%);
+}
+
+.clip-div{
+  background-color: white;
+  border-radius: 70px;
+  width: 80%;
+}
+
+.client-feedback-img{
+  top: -64px;
+  right: 65px;
+}
+
+.clip-div p{
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.client-quote-start-img{
+  top: 32px;
+  left: 23px;
+}
+
+.client-quote-end-img{
+  bottom: 32px;
+  right: 23px;
+}
+
+.carousel-indicators [data-bs-target]{
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+}
+
+.feedback-container{
+  margin-top: 40px;
+  margin-bottom: 59px;
+}
+
+.footer-container{
+  background-color: #450275;
+}
+
+.border-img-footer{
+  top: -41px;
+}
+
+.flex-column .nav-item:hover{
+  background-color: #A23DBF;
+}
+
+.flex-column .nav-item:first-child{
+  background-color: #A23DBF; 
+}
+
+.anchor-color .nav-item:hover{
+  color: #E10000;
+}
+
+.fa-brands:hover{
+  color: #E10000;
+}
+
+.btn-dark:hover{
+  background-color: #A23DBF;
+  border-color: #A23DBF;
+}
+
+.btn-light:hover{
+  background-color: #8F1588;
+  border-color: #8F1588;
+  color: white;
+}
+
+.btn-dark{
+  padding: 0 70px;
+}
+
+.ourmics-img {
+  position: relative;
+}
+
+.hover-icon {
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  height: 95%;
+  width: 95%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #ffffff50;
+  border-radius: 50%;
+}
+
+.ourmics-img:hover .hover-icon {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fa-magnifying-glass:hover {
+  color: #eee;
+}
+
+@media (min-width: 768px){
+
+  .container-h1{
+    font-size: 60px;
+  }
+
+  .img-div{
+    width: 230px;
+    height: 230px;
+  }
+
+  .logo-anchor img{
+    width: 250px;
+  }
+
+  .clip-div, .text-feedback{
+    width: 75%;
+  }
+
+  .clip-path-paragraph{
+    padding: 70px 80px;
+  }
+  
+  .client-feedback-img{
+    top: -64px;
+    right: 218px;
+  }
+
+  .border-img-footer{
+    top: -100px;
+  }
+
+}
+
+@media (min-width: 992px){
+
+  .img-div{
+    width: 300px;
+    height: 300px;
+  }
+
+  .client-feedback-img{
+    top: -64px;
+    right: 304px;
+  }
+
+  .feedback-container{
+    margin-bottom: 160px;
+  }
+
+  .border-img-footer{
+    top: -132px;
+  }
+
+}
+
+@media (min-width: 1400px){
+  .border-img-footer{
+    top: -198px;
+  }
+}
+
+@media (min-width: 1339px){
+
+  .client-feedback-img{
+    top: -62px;
+    right: 469px;
+  }
+
+  .feedback-container{
+    margin-bottom: 217px;
+  }
+
+  .border-img-footer{
+    top: -179px;
+  }
+
+  .ourmics-img{
+    width: 380px;
+    height: 380px;
+  }
+  
+  .ourmics-img img{
+    width: 370px;
+    height: 370px;
+  }
+
+}
+
+
+@media (min-width: 1530px){
+
+  .feedback-container{
+    margin-bottom: 290px;
+  }
+
+  .border-img-footer{
+    top: -199px;
+  }
+}
+
+@media(min-width: 2560px){
+  .border-img-footer{
+    top: -334px;
+  }
+}
